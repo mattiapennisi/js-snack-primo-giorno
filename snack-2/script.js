@@ -7,11 +7,11 @@ let wordOne = String(prompt('Enter a word'))
 let wordTwo = String(prompt('Enter a second word'))
 
 if (wordOne.length > wordTwo.length) {
-    console.log(wordTwo);
-    console.log(wordOne);
+    console.log(`${wordTwo} length is shorter`);
+    console.log(`${wordOne} length is greater`);
 } else if (wordOne.length < wordTwo.length) {
-    console.log(wordOne);
-    console.log(wordTwo);
+    console.log(`${wordOne} length is shorter`);
+    console.log(`${wordTwo} length is greater`);
 } else {
     console.log('Words got the same length');
 }
